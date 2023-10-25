@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+}
+header{
+background-color: #f0f0f0;
+width: 100%;
+position: fixed;
+z-index: 999;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 10px 200px;
+}
+.logo{
+text-decoration: none;
+font-size: 1.8em;
+font-weight: 700;
+
+
+}
+.navigation a{
+text-decoration: none;
+font-size: 1.1em;
+font-weight: 600;
+padding-left: 30px;
+
+}
+.navigation a:hover{
+color: purple;
+}
+section{
+    padding: 100px 100px 200px 200px;
+}
+
+.main{
+width: 100%;
+min-height: 100vh;
+display: flex   ;
+align-items: center;
+background: url(photo/inbound1019003016661478441-1024x675.webp) no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+.main h2{
+color: white;
+font-size: 1.4em;
+font-weight: 500;
+}.main h2 span{
+    display: inline-block;
+color:purple;
+font-size: 2em;
+font-weight: 600;
+margin-top: 10px;
+}
+.main h3{
+color: white;
+font-size: 1em;
+font-weight: 700;
+letter-spacing: 1px;
+margin-top: 10px;
+}
+
+
+.title{
+display: flex;
+justify-content: center;
+color: purple;
+font-size: 2em;
+font-weight: 700;
+margin-bottom: 30px;
+}
+.content{
+display: flex;
+justify-content: center;
+flex-direction: row;
+flex-wrap: wrap;
+}
+.info{
+background-color: white;
+width: 21.25em;
+box-shadow: 0 5px 25px rgba(1,1, 1,1);
+border-radius: 10px;
+padding: 25px;
+margin: 15px;
+transition: 0.7s ease;
+}
+.info:hover{
+transform: scale(1.1);
+
+
+
+}
+
+.link a{
+    text-decoration: none;
+    font-size: 1.5em;
+    padding-top: 15px;
+    transition: .3s;
+    padding-left: 30%;
+    margin-top: 15px;
+    }
+    .link a:hover{
+        color: aqua;
+    }
+
+
+
+
+    .mai{
+        width: 100%;
+        min-height: 100vh;
+        display: flex   ;
+        align-items: center;
+        background: url(photo/A-Train_w-Time2013_Web.jpg) no-repeat;
+        background-size: cover;
+        background-attachment: fixed;}
+
+@media (max-width:1023px){
+header{
+padding: 12px 20px;
+
+}
+.navigation a{
+    padding-left: 10px;
+}
+.title {font-size: 1em;
+
+}
+    section{
+        padding: 80px 20px;
+    }
+
+
+}
